@@ -1,1 +1,1 @@
-# MachineLearning2
+# some notes
