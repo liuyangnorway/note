@@ -13,7 +13,8 @@ def prime(N):
         isprime=True        
         for j in K:
             if i%j==0:
-               isprime=False
+               isprime=False            
+               break
         if isprime:
             P.append(i)
     return P           
@@ -29,6 +30,7 @@ def prime2(N):
         for j in range(3,int(math.sqrt(i))+1,2):
             if i%j==0:
                isprime=False
+               break
         if isprime:
             P.append(i)
     return P           
