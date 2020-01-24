@@ -3,6 +3,11 @@ import pandas as pd
 import numpy as np
 import random
 
+%load_ext autoreload
+%autoreload 2
+
+
+
 #import matplotlib
 #matplotlib.use('nbagg')
 
@@ -21,6 +26,3 @@ mpld3.enable_notebook()
 from matplotlib import pyplot as plt
 %matplotlib inline
 #%matplotlib notebook
-
-%load_ext autoreload
-%autoreload 2
