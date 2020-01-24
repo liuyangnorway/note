@@ -1,0 +1,26 @@
+import os,time
+import pandas as pd
+import numpy as np
+import random
+
+#import matplotlib
+#matplotlib.use('nbagg')
+
+"""
+this creates zoom-able (interactive) plots and supports more than one plot at the same time. 
+from my experience, You must state mpld3.enable_notebook() in every cell you plot something, 
+otherwise it reverts to something that looks like %matplotlib inline mode.
+When using %matplotlib inline or mpld3 you should adjust figure size using 
+plt.rcParams['figure.figsize'] = [9.5, 6]  #[width,height]
+
+"""
+import mpld3
+mpld3.enable_notebook()
+
+
+from matplotlib import pyplot as plt
+%matplotlib inline
+#%matplotlib notebook
+
+%load_ext autoreload
+%autoreload 2
