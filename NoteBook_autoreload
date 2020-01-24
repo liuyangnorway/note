@@ -6,7 +6,17 @@ import random
 %load_ext autoreload
 %autoreload 2
 
+# or
 
+from importlib import reload
+reload(plt)
+%matplotlib notebook
+
+"""
+It seems that in some cases it helps to repeat the setting of the notebook backend, i.e. call it twice like
+"""
+%matplotlib notebook
+%matplotlib notebook
 
 #import matplotlib
 #matplotlib.use('nbagg')
