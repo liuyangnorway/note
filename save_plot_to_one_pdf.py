@@ -40,8 +40,12 @@ for soil in df['soil Type'].unique():
             
     ax1.set_xscale("log")
 
-    ax1.set_xlabel('logStress')
+    #ax1.set_xlabel('logStress')
     ax1.set_ylabel('deltaepsv')
+    ax1.set_title('Soil type = {:>12s}\nStress(logScale)\n'.format(soil),fontweight='bold',color = 'blue', fontsize='12')
+    
+    #plt.xlabel('title of the xlabel', fontweight='bold', color = 'orange', fontsize='17', horizontalalignment='center') 
+
     ax1.set_xticks([50,100,200,400,600,800,1600])
     ax1.set_xticklabels([50,100,200,400,600,800,1600])
     ax1.invert_yaxis()
