@@ -51,6 +51,8 @@ for soil in df['soil Type'].unique():
     ax1.invert_yaxis()
     ax1.xaxis.tick_top()
     ax1.grid()
+    fig.subplots_adjust(left=.1,bottom=.15,right = 0.8,top=.85)
+
     if k>6:            
         ax1.legend(loc='lower center', bbox_to_anchor=(1.05, 0.),   fancybox=True, shadow=True)
     else:
