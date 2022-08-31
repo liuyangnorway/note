@@ -1,3 +1,4 @@
+# Find intersection points for two lines or two curves. 
 # Method 1
 # https://stackoverflow.com/questions/46909373/how-to-find-the-exact-intersection-of-a-curve-as-np-array-with-y-0/46911822#46911822
 import numpy as np
